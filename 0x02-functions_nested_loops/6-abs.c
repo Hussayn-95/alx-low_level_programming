@@ -8,8 +8,14 @@
  */
 int _abs(int a)
 {
-	int i = a;
-	int k = _abs(i);
+	int k = a;
+	int absvalue;
 
-	return k;
+	if (k < 0)
+	{
+		k = k * (-1);
+	}
+	absvalue = k;
+	return (absvalue);
 }
+
