@@ -9,7 +9,7 @@
 int _abs(int a)
 {
 	int i = a;
-	int k = abs(i);
+	int k = _abs(i);
 
 	return k;
 }
