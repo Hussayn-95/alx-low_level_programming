@@ -1,3 +1,12 @@
+#include <main.h>
+/**
+ * _strncat - combines two strings
+ * @dest: input
+ * @src: input
+ * @n: counter
+ * Return: dest
+ */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
