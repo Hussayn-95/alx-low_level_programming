@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strcat - combine two strings
- * @s: input
- * return: always 0
+ * _strcat - combine two strings same as strcat
+ * @src: input
+ * @dest: input
+ * Return: always 0
  */
 char *_strcat(char *dest, char *src)
 {
