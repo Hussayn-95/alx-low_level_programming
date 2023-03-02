@@ -1,18 +1,20 @@
 #include "main.h"
 /**
- * string_toupper - relacing lowercase to uppercase
- * @m: input
- * Return: m
+ * string_toupper - change all lowercase to uppercase
+ * @n: pointer
+ *
+ * Return: n
  */
-char *string_toupper(char *m)
+char *string_toupper(char *n)
 {
 	int i;
 
-	for (i = 0; m[i] != '\0'; i++)
+	i = 0;
+	while (n[i] != '\0')
 	{
-		if (m[i] >= 'a' && m[i] < 'Z')
-			m[i] -= 32;
-		m++;
+		if (n[i] >= 'a' && n[i] <= 'z')
+			n[i] = n[i] - 32;
+		i++;
 	}
-	return (m);
+	return (n);
 }
